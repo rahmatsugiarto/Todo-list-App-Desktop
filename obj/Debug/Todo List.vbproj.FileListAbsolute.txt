@@ -1,0 +1,13 @@
+D:\Kuliah UNSIA\Semester 1 Ganjil 22-23\Pemrograman Visual\tugas\Project\Todo List\obj\Debug\Todo List.vbproj.AssemblyReference.cache
+D:\Kuliah UNSIA\Semester 1 Ganjil 22-23\Pemrograman Visual\tugas\Project\Todo List\obj\Debug\Todo List.vbproj.SuggestedBindingRedirects.cache
+D:\Kuliah UNSIA\Semester 1 Ganjil 22-23\Pemrograman Visual\tugas\Project\Todo List\obj\Debug\Todo_List.Resources.resources
+D:\Kuliah UNSIA\Semester 1 Ganjil 22-23\Pemrograman Visual\tugas\Project\Todo List\obj\Debug\Todo List.vbproj.GenerateResource.cache
+D:\Kuliah UNSIA\Semester 1 Ganjil 22-23\Pemrograman Visual\tugas\Project\Todo List\obj\Debug\Todo List.vbproj.CoreCompileInputs.cache
+D:\Kuliah UNSIA\Semester 1 Ganjil 22-23\Pemrograman Visual\tugas\Project\Todo List\bin\Debug\Todo List.exe.config
+D:\Kuliah UNSIA\Semester 1 Ganjil 22-23\Pemrograman Visual\tugas\Project\Todo List\bin\Debug\Todo List.exe
+D:\Kuliah UNSIA\Semester 1 Ganjil 22-23\Pemrograman Visual\tugas\Project\Todo List\bin\Debug\Todo List.pdb
+D:\Kuliah UNSIA\Semester 1 Ganjil 22-23\Pemrograman Visual\tugas\Project\Todo List\bin\Debug\Todo List.xml
+D:\Kuliah UNSIA\Semester 1 Ganjil 22-23\Pemrograman Visual\tugas\Project\Todo List\obj\Debug\Todo_List.Form1.resources
+D:\Kuliah UNSIA\Semester 1 Ganjil 22-23\Pemrograman Visual\tugas\Project\Todo List\obj\Debug\Todo List.exe
+D:\Kuliah UNSIA\Semester 1 Ganjil 22-23\Pemrograman Visual\tugas\Project\Todo List\obj\Debug\Todo List.xml
+D:\Kuliah UNSIA\Semester 1 Ganjil 22-23\Pemrograman Visual\tugas\Project\Todo List\obj\Debug\Todo List.pdb
