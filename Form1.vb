@@ -56,7 +56,7 @@ Public Class Form1
             End If
         End If
 
-        'Refrrest Data
+        'Refrest Data
         showData()
     End Sub
 
@@ -98,5 +98,12 @@ Public Class Form1
         End If
 
 
+    End Sub
+
+    Private Sub btn_createBy_Click(sender As Object, e As EventArgs) Handles btn_createBy.Click
+        Dim createdByList() As String = {"Rahmat Sugiarto", "Agis Nuryanto"}
+        For i As Integer = 0 To createdByList.Length - 1
+            MsgBox("Created By : " & createdByList.GetValue(i))
+        Next
     End Sub
 End Class

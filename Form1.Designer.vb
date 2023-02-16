@@ -33,6 +33,7 @@ Partial Class Form1
         Me.btnClear = New System.Windows.Forms.Button()
         Me.btnDelete = New System.Windows.Forms.Button()
         Me.dgToDoList = New System.Windows.Forms.DataGridView()
+        Me.btn_createBy = New System.Windows.Forms.Button()
         CType(Me.dgToDoList, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -146,12 +147,23 @@ Partial Class Form1
         Me.dgToDoList.Size = New System.Drawing.Size(879, 296)
         Me.dgToDoList.TabIndex = 10
         '
+        'btn_createBy
+        '
+        Me.btn_createBy.Font = New System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_createBy.Location = New System.Drawing.Point(768, 338)
+        Me.btn_createBy.Name = "btn_createBy"
+        Me.btn_createBy.Size = New System.Drawing.Size(88, 21)
+        Me.btn_createBy.TabIndex = 11
+        Me.btn_createBy.Text = "Created By"
+        Me.btn_createBy.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 22.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DimGray
         Me.ClientSize = New System.Drawing.Size(879, 670)
+        Me.Controls.Add(Me.btn_createBy)
         Me.Controls.Add(Me.dgToDoList)
         Me.Controls.Add(Me.btnDelete)
         Me.Controls.Add(Me.btnClear)
@@ -186,4 +198,5 @@ Partial Class Form1
     Friend WithEvents btnClear As Button
     Friend WithEvents btnDelete As Button
     Friend WithEvents dgToDoList As DataGridView
+    Friend WithEvents btn_createBy As Button
 End Class
