@@ -28,7 +28,7 @@ Public Class Form1
     'Untuk Menyimpan data ke Database
     Private Sub btnAdd_Click(sender As Object, e As EventArgs) Handles btnAdd.Click
 
-        If String.IsNullOrEmpty(tbKegiatan.Text) And String.IsNullOrEmpty(tbTimeline.Text) And String.IsNullOrEmpty(tbKeterangan.Text) Then
+        If String.IsNullOrEmpty(tbKegiatan.Text) Or String.IsNullOrEmpty(tbTimeline.Text) Or String.IsNullOrEmpty(tbKeterangan.Text) Then
             MsgBox("Data harus Diisi Terlebih dahulu!")
         Else
             If ketemu = False Then
@@ -76,14 +76,16 @@ Public Class Form1
             End If
             disconnectDb()
 
-            End If
+        End If
     End Sub
 
     Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
+        'Menjalankan Function Clear Text Box
         ClearTextBox()
     End Sub
 
     Private Sub btnDelete_Click(sender As Object, e As EventArgs) Handles btnDelete.Click
+        'Menjalankan perintah untuk mendelete kegiatan
         Dim selected = MessageBox.Show("Apakah Yakin akan Hapus Kegiatan ini?", "Perhatian!", MessageBoxButtons.YesNo)
         If selected = vbYes Then
             connectDb()
@@ -92,6 +94,7 @@ Public Class Form1
             MsgBox("Kegiatan Berhasil Dihapus")
             disconnectDb()
 
+            'Refrest Data
             showData()
             ClearTextBox()
 
@@ -100,10 +103,15 @@ Public Class Form1
 
     End Sub
 
+
     Private Sub btn_createBy_Click(sender As Object, e As EventArgs) Handles btn_createBy.Click
+        'List Pembuat applikasi todo list
         Dim createdByList() As String = {"Rahmat Sugiarto", "Agis Nuryanto"}
+
+        'Melakukan perulangan untuk Memunculkan Message nama pembuat
         For i As Integer = 0 To createdByList.Length - 1
             MsgBox("Created By : " & createdByList.GetValue(i))
         Next
     End Sub
+
 End Class
